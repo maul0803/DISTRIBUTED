@@ -1,0 +1,8 @@
+# Python 10.?
+torch
+transformers
+pytorch-lightning
+datasets
+numpy
+pandas
+tqdm
