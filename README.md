@@ -103,5 +103,7 @@ It is possible to improve the training time even more by using the tensor cores 
 - On 4 GPUs with the DDP strategy: 1m11s = 71s  with an average time of 5s per epochs for the training step.    
 - On 4 GPUs with the FSDP stategy: 1m30s = 90s  with an average time of 7s per epochs for the training step.  
     
-![png](img/all_ddp_fsdp.png)   
+![png](img/all_ddp_fsdp.png)
+f1 score on the train dataset using the DDP and FSDP strategies (with and without tensor cores)
 ![png](img/all_one_GPU.png)
+f1 score on the train dataset using a sequential approach (with and without tensor cores)
